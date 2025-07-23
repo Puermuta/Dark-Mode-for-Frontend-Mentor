@@ -1,0 +1,29 @@
+:root {
+    --background-color: #121212 !important;
+}
+
+body, .bg-neutralOffWhite {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+.border-neutralLightGrey {
+    border-color: hsl(0, 0%, 16.9%);
+}
+
+.bg-neutralWhite {
+  background-color: #1a1a1a !important;
+}
+
+.bg-neutralLightestGrey\/50 {
+    background-color: rgba(34, 34, 34, 0.5);
+}
+
+.text-neutralBlack {
+    color: hsl(0, 0%, 84.3%);
+}
+
+.bg-neutralLightestGrey, .border-neutralLightestGrey {
+    background-color: hsl(0, 0%, 14.1%);
+    border-color: hsl(0, 0%, 14.1%);
+}

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Mode for Frontend Mentor",
+    "version": "1.0",
+    "description": "Adds dark mode to frontendmentor.io.",
+    "content_scripts": [
+    {
+      "matches": ["https://*.frontendmentor.io/*", "https://frontendmentor.io/*"],
+      "css": ["dark.css"],
+      "js": ["inject.js"]
+    }
+    ],
+    "web_accessible_resources": [
+        {
+        "resources": ["assets/dark-logo.svg"],
+        "matches": ["https://*.frontendmentor.io/*", "https://frontendmentor.io/*"]
+        }
+    ]
+}
