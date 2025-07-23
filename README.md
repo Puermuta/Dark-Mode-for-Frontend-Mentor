@@ -1,9 +1,7 @@
-# Dark Mode for Frontend Mentor
-Simple web extension to make Frontend Mentor dark mode. Developed for Firefox, but should also work for chromium-based browsers like Chrome, Edge and Opera.
-
-### Preview
 ![Screenshot of Frontend Mentor with dark mode](assets/screenshot.png "## Preview")
 
+# Dark Mode for Frontend Mentor
+Simple web extension to make Frontend Mentor dark mode. Developed for Firefox, but should also work for chromium-based browsers like Chrome, Edge and Opera.
 
 ### How I made it
 I used devtools to find the variables controlling the color of elements, and changed the various color properties to a darker tone. 
