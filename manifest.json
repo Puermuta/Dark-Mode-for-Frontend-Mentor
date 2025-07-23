@@ -3,6 +3,7 @@
     "name": "Dark Mode for Frontend Mentor",
     "version": "1.0",
     "description": "Adds dark mode to frontendmentor.io.",
+    
     "content_scripts": [
     {
       "matches": ["https://*.frontendmentor.io/*", "https://frontendmentor.io/*"],
@@ -10,6 +11,12 @@
       "js": ["inject.js"]
     }
     ],
+
+    "icons": {
+        "48": "assets/dark-favico-48.png",
+        "96": "assets/dark-favico-96.png"
+    },
+
     "web_accessible_resources": [
         {
         "resources": ["assets/dark-logo.svg"],
