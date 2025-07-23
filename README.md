@@ -1,4 +1,4 @@
-![Screenshot of Frontend Mentor with dark mode](assets/screenshot.png "## Preview")
+![Screenshot of Frontend Mentor with dark mode](assets/screenshot.png?v=2 "## Preview")
 
 # Dark Mode for Frontend Mentor
 Simple web extension to make Frontend Mentor dark mode. Developed for Firefox, but should also work for chromium-based browsers like Chrome, Edge and Opera.
